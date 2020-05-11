@@ -1,0 +1,7 @@
+- name: Pull tomcat image
+  hosts: localhost
+  tasks:
+  - name: pull
+    docker_image:
+      name: tomcat:8.0-alpine
+© 2020 GitHub, Inc.
